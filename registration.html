@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/png" href="img/fav.png">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maxmum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="snow-bg">
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><img class="facebook" src="img/top_up.png"></button>
+	<header>
+		<!--------------------Navigation----------------->
+
+		<a href="index.html"><img class="logo" src="img/logo.jpg"></a>
+		<div class="main-navigation">
+			<ul>
+				<li><a  href="index.html">Home</a></li>
+				<li><a href="about-us.html">About Us</a></li>
+				<li><a href="activities.html">Activities</a></li>
+				<li><a class="active" href="registration.html">Registration</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</div>
+		<!--------------------Navigation End----------------->
+	</header>
+	<div class="reg-header">
+		<h1>Student Registration Form</h1>
+		<p>Fill out the form carefully for registration</p>
+	</div>
+	<form class="Registation-form-main" action="https://getform.io/f/36886122-7075-4395-a0ed-4e47a8f36efd" method="POST">
+		<div class="Registation-form">
+			<div class="reg-form">
+				<div class="reg-form-header">
+					<h2>General Infomations</h2>
+				</div>
+				<div>
+					<h2>How did you hear about us ?</h2>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+						<input type="radio" name="How did you hear about us ?" id="Advertisement">
+						<span id="contact-reg">Advertisement</span>
+						&nbsp; &nbsp;
+						<input type="radio" name="How did you hear about us ?" id="Student">
+						<span id="contact-reg">Student</span>
+						&nbsp; &nbsp;
+						<input type="radio" name="How did you hear about us ?" id="Student">
+						<span id="contact-reg">Friend</span>
+						<br><br>
+				</div>
+				<div class="reg-form-header">
+					<h2>Student Infomations</h2>
+					<img src="img/form-img.png"><br>
+					<input class="reg-form-img" type="file" name="file" required="required">
+					<h4>Student Name</h4>
+					<input class="reg-first-name" type="text" name="first-name" placeholder="First Name" required="required">
+					<input class="reg-middle-name" type="text" name="middle-name" placeholder="Middle Name" required="required">
+					<input class="reg-last-name" type="text" name="last-name" placeholder="Last Name" required="required">
+					<br><br>
+					<h4>Date of Birth</h4>
+					<input class="reg-dob" type="date" name="dob" placeholder="Date of Birth" required="required">
+					<br><br>
+					<h4>Gender</h4>
+					<br>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+					<input type="radio" name="Gender" id="male">
+					<span id="reg-gender">Male</span>
+					&nbsp; &nbsp;
+					<input type="radio" name="Gender" id="femail">
+					<span id="reg-gender">Female</span>
+					<br><br>
+					<h4>Student E-mail</h4>
+					<input class="reg-email" type="email" name="email" placeholder="example@example.com">
+					<div id="reg-mobi" >
+					<h4>Mobile Number</h4>
+					<input class="reg-area-code" type="text" name="area-code" placeholder=" Area Code" required/>
+					<input class="reg-tel" type="tel" name="tel" placeholder=" Phone Number" required/>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="reg-form-header">
+					<h2>Perent Informatio</h2>
+				</div>
+				<h4>Parent Name</h4>
+				<input class="reg-first-name" type="text" name="first-name" placeholder="First Name" required="required">
+				<input class="reg-middle-name" type="text" name="middle-name" placeholder="Middle Name" required="required">
+				<input class="reg-last-name" type="text" name="last-name" placeholder="Last Name" required="required">
+				<br><br>
+				<h4>Address</h4>
+				<input class="reg-address" type="text" name="address" placeholder="Address" required="required">
+				<br><br>
+				<h4>Parent Employer</h4>
+				<input class="reg-employer" type="text" name="Employer" placeholder="Employer" required="required">
+			</div>
+			<div>
+				<div class="reg-form-header">
+					<h2>Emergency Information</h2>
+				</div>
+				<h4>Relationship</h4>
+				<input class="reg-relation" type="text" name="relationship" placeholder="Relationship" required="required">
+				<h4>Phone Number</h4>
+				<input class="reg-area-code" type="text" name="area-code" placeholder=" Area Code" required/>
+				<input class="reg-tel" type="tel" name="tel" placeholder=" Phone Number" required/>
+				<br><br>
+				<input class="reg-btn" type="submit" name="submit" >
+				<input class="reg-btn" type="reset" name="Clear">
+			</div>
+		</div>
+	</form>	
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<dir class="footer-col">
+					<h3>About us</h3>
+					<dir class="aboutft">
+						<img src="img/footer-logo.png">
+						<p>Ministry of Higher Education-Sri Lanka<br> Accredited Certificate Awarding Institution<br> since 26.11.2014</p>
+					</dir>
+				</dir>
+				<dir class="footer-col">
+					<h3>Open hourss</h3>
+					<p><span>Preschool: </span>8.00am – 11.30 am<br>
+					(Early drop off sessions are available<br> from 7.30am)</p>
+					<br>
+					<p><span>School: </span>8.00am – 6pm</p>
+					<br>
+					<p><span>After school club: </span>2pm – 6pm</p>
+					</dir>
+				</dir>
+				<dir class="footer-col">
+					<h3>Contact us</h3>
+					<p><span>Tel: </span>(+94) 11 4 365555</p>
+					<br>
+					<p><span>Email: </span>info@kidos.edu.lk</p>
+					<br>
+					<p><span>Address: </span>Kidos Education
+						No : 482/B, Suhada Mw,<br>
+						Millennium Drive,<br>
+						Chandrika Kumaranathunga Mw,<br>
+						Malabe,<br>
+						Sri Lanka.</p>
+					</dir>
+				</dir>
+				<dir class="footer-col">
+					<h3>follow us</h3>
+					<div class="social-links">
+						<a href="https://www.facebook.com/HorizonCampusSL/"><img class="facebook" src="img/facebook.png"></a>
+						<a href="https://twitter.com/HorizonCampus"><img class="twitter" src="img/twitter.png"></a>
+						<a href="https://www.youtube.com/channel/UCuQScDgAxFgtCARMa3I2f0g"><img class="youtube" src="img/youtube.png"></a>
+						<a href="https://www.linkedin.com/school/horizon-campus/"><img class="linkedin" src="img/linkedin.png"></i></a>
+						<a href="https://www.instagram.com/horizon_campus/"><img class="instagram" src="img/instagram.png"></i></a>
+					</div>
+				</dir>
+			</div>
+		</div>
+	</footer>
+		<div>
+		<button onclick="topFunction()" id="myBtn" title="Go to top"><img class="facebook" src="img/top_up.png"></button>
+		<script>
+			//Get the button
+			var mybutton = document.getElementById("myBtn");
+
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+			  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			    mybutton.style.display = "block";
+			  } else {
+			    mybutton.style.display = "none";
+			  }
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+			  document.body.scrollTop = 0;
+			  document.documentElement.scrollTop = 0;
+			}
+	</script>
+	</div>
+	<div class="copyright">
+		<p>Copyright © 2021, B.A.R.Lakshan(IT2020002). All rights reserved. </p>
+	</div>
+</body>
+</html>
